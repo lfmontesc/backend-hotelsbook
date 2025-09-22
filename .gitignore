@@ -1,0 +1,75 @@
+# ===============================
+# Archivos del sistema operativo
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDEs y editores
+# ===============================
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===============================
+# Maven y Gradle
+# ===============================
+target/
+build/
+!src/main/**/target/
+!src/test/**/target/
+
+# ===============================
+# Logs y temporales
+# ===============================
+*.log
+logs/
+*.tmp
+*.swp
+*.bak
+
+# ===============================
+# Spring Boot
+# ===============================
+/*.jar
+/*.war
+/*.ear
+
+# ===============================
+# Docker
+# ===============================
+/docker-compose.override.yml
+/.env
+
+# ===============================
+# Node / Angular
+# ===============================
+node_modules/
+dist/
+.tmp/
+.angular/cache/
+package-lock.json
+yarn.lock
+
+# ===============================
+# Otros
+# ===============================
+/out/
+/bin/
+/coverage/
+
